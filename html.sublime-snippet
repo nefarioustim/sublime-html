@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+    <head>
+        <script type="text/javascript">
+            document.documentElement.className += ' js';
+        </script>
+        <meta charset="utf-8">
+        <title>$1</title>
+    </head>
+    <!--[if lt IE 7 ]>
+    <body class="ie ie6">
+    <![endif]-->
+    <!--[if IE 7 ]>
+    <body class="ie ie7">
+    <![endif]-->
+    <!--[if IE 8 ]>
+    <body class="ie ie8">
+    <![endif]-->
+    <!--[if IE 9 ]>
+    <body class="ie ie9">
+    <![endif]-->
+    <!--[if gt IE 9]>
+    <body class="ie">
+    <![endif]-->
+    <!--[if !IE]><!-->
+    <body>
+    <!--<![endif]-->
+        $0
+    </body>
+</html>]]></content>
+	<tabTrigger>html</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
